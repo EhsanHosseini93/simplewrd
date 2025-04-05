@@ -1,0 +1,52 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TehranBook - Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="importmap">
+        {
+            "imports": {
+                "config": "./config.js"
+            }
+        }
+    </script>
+    <script type="module" src="main.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <svg width="40" height="40" viewBox="0 0 40 40">
+                    <path d="M10 10 L30 10 L30 30 L10 30 Z" fill="none" stroke="currentColor"/>
+                    <path d="M15 15 L25 15 M15 20 L25 20 M15 25 L25 25" stroke="currentColor"/>
+                </svg>
+                <span>TehranBook</span>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="books.html">Books</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Welcome to TehranBook</h1>
+            <p>Discover your next literary adventure</p>
+            <a href="books.html" class="cta-button">Browse Books</a>
+        </section>
+
+        <section class="featured-books">
+            <h2>Featured Books</h2>
+            <div class="book-grid" id="bookGrid"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 TehranBook. All rights reserved.</p>
+    </footer>
+</body>
+</html>
